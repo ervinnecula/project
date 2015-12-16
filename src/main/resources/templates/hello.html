@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Hello Facebook</title>
+	</head>
+	<body>
+		<div th:each="friend:${friends}">
+			<b th:text="${friend.name}"></b>
+			<b th:text="${friend.id}"></b>
+			<hr/>
+		</div>
+		
+	</body>
+</html>
